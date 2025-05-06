@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SMOKY Memecoin on TON Blockchain - Honoring Smoky, the heroic War Dog from World War II">
+    <meta name="keywords" content="SMOKY, memecoin, TON blockchain, cryptocurrency, smoky token">
+    <meta name="author" content="SMOKY Team">
+    <meta property="og:title" content="SMOKY Memecoin | Official Website">
+    <meta property="og:description" content="Honoring Smoky, the heroic War Dog from World War II on TON Blockchain">
+    <meta property="og:image" content="https://smoky.uz/logo.png">
+    <meta property="og:url" content="https://smoky.uz">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <title>SMOKY | Memecoin on TON Blockchain</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="index.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@500;700&family=Poppins&family=Roboto:wght@500&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&family=Tomorrow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    
+    <!-- Scripts -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+</head>
+
+<body class="font-Montserrat bg-black text-white">
+    <!-- Navigation -->
+    <nav class="nav-main sticky top-0 z-50 bg-black bg-opacity-90 backdrop-blur-sm">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="logo.png" class="h-12 rounded-full md:h-14" alt="SMOKY Logo" width="56" height="56">
+                <span class="hidden md:block text-lg md:text-3xl font-extrabold whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400">
+                    SMOKY
+                </span>
+            </a>
+            
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-sm md:hidden hover:bg-cyan-500 focus:outline-none" aria-controls="navbar-default" aria-expanded="false" onclick="toggleMenu()">
+                <span class="sr-only">Open main menu</span>
+                <span id="menuIcon" class="text-cyan-400">
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </span>
+            </button>
+            
+            <div class="hidden w-full md:flex md:w-auto md:items-center" id="navbar-default">
+                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-sm md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-white text-lg lg:text-xl rounded hover:text-pink-500 md:hover:bg-transparent md:border-0 md:p-0 transition-colors duration-200">
+                            HOME
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="block py-2 px-3 text-white text-lg lg:text-xl rounded hover:text-pink-500 md:hover:bg-transparent md:border-0 md:p-0 transition-colors duration-200">
+                            ABOUT
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#tokenomics" class="block py-2 px-3 text-white text-lg lg:text-xl rounded hover:text-pink-500 md:hover:bg-transparent md:border-0 md:p-0 transition-colors duration-200">
+                            TOKENOMICS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#social" class="block py-2 px-3 text-white text-lg lg:text-xl rounded hover:text-pink-500 md:hover:bg-transparent md:border-0 md:p-0 transition-colors duration-200">
+                            SOCIALS
+                        </a>
+                    </li>
+                </ul>
+                
+                <div class="hidden md:block ml-8" id="navbar-default-btn">
+                    <a href="https://t.me/SmokyGlobal" class="hover:no-underline">
+                        <button type="button" class="text-white bg-black hover:bg-white hover:text-black border border-white focus:outline-none focus:ring-4 focus:ring-white font-medium rounded-full text-sm px-5 py-2.5 transition-colors duration-200">
+                            Join the community
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden">
+        <div class="container mx-auto px-4 py-20 lg:py-32 flex flex-col lg:flex-row items-center justify-between gap-12">
+            <div class="lg:w-1/2 text-center lg:text-left">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6">
+                    Welcome to <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-400 animate-pulse">
+                        SMOKY
+                    </span>
+                </h1>
+                
+                <p class="text-lg md:text-xl text-gray-300 mb-8 max-w-lg mx-auto lg:mx-0">
+                    The heroic memecoin honoring Smoky, the brave Yorkshire Terrier from World War II on TON Blockchain
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <a href="https://t.me/Smoky_Ton" class="w-full sm:w-auto">
+                        <button class="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white font-bold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105">
+                            BUY SMOKY
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none" class="w-5 h-5">
+                                <path d="M6.25 5.44702C5.56 5.44702 5 6.00702 5 6.69702V18.197C5 18.887 5.56 19.447 6.25 19.447H17.75C18.44 19.447 19 18.887 19 18.197V14.447C19 14.1818 19.1054 13.9275 19.2929 13.7399C19.4804 13.5524 19.7348 13.447 20 13.447C20.2652 13.447 20.5196 13.5524 20.7071 13.7399C20.8946 13.9275 21 14.1818 21 14.447V18.197C21 19.059 20.6576 19.8856 20.0481 20.4951C19.4386 21.1046 18.612 21.447 17.75 21.447H6.25C5.38805 21.447 4.5614 21.1046 3.9519 20.4951C3.34241 19.8856 3 19.059 3 18.197V6.69702C3 5.83507 3.34241 5.00842 3.9519 4.39892C4.5614 3.78943 5.38805 3.44702 6.25 3.44702H10C10.2652 3.44702 10.5196 3.55238 10.7071 3.73991C10.8946 3.92745 11 4.18181 11 4.44702C11 4.71224 10.8946 4.96659 10.7071 5.15413C10.5196 5.34166 10.2652 5.44702 10 5.44702H6.25ZM14 5.44702C13.7348 5.44702 13.4804 5.34166 13.2929 5.15413C13.1054 4.96659 13 4.71224 13 4.44702C13 4.18181 13.1054 3.92745 13.2929 3.73991C13.4804 3.55238 13.7348 3.44702 14 3.44702H20C20.2652 3.44702 20.5196 3.55238 20.7071 3.73991C20.8946 3.92745 21 4.18181 21 4.44702V10.447C21 10.7122 20.8946 10.9666 20.7071 11.1541C20.5196 11.3417 20.2652 11.447 20 11.447C19.7348 11.447 19.4804 11.3417 19.2929 11.1541C19.1054 10.9666 19 10.7122 19 10.447V6.86102L14.707 11.154C14.5184 11.3362 14.2658 11.437 14.0036 11.4347C13.7414 11.4324 13.4906 11.3272 13.3052 11.1418C13.1198 10.9564 13.0146 10.7056 13.0123 10.4434C13.01 10.1812 13.1108 9.92862 13.293 9.74002L17.586 5.44702H14Z" fill="currentColor"></path>
+                            </svg>
+                        </button>
+                    </a>
+                </div>
+                
+                <div class="mt-8 flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
+                    <p class="text-gray-300">Contract Address:</p>
+                    <div class="relative flex-1 max-w-md">
+                        <input type="text" id="contract-address" readonly value="EQDYvSx9HxBEdQlkYbe9wc7WFiMUzgWuz6seeX2rIidGs6io" class="w-full bg-gray-800 border border-gray-700 rounded-lg py-2 px-4 text-sm text-white focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                        <button onclick="copyToClipboard('contract-address', this)" class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 hover:bg-gray-600 rounded p-1 transition-colors duration-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="lg:w-1/2 mt-12 lg:mt-0 flex justify-center">
+                <img src="logo1.png" alt="SMOKY Logo" class="w-64 md:w-80 lg:w-96 animate-float" width="384" height="384">
+            </div>
+        </div>
+        
+        <div class="absolute inset-0 -z-10 overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-80"></div>
+            <div class="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-10"></div>
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(124,_58,_237,_0.1)_0,_transparent_70%)]"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gradient-to-b from-black to-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-center mb-16">
+                About <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-400">SMOKY</span>
+            </h2>
+            
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="lg:w-1/2 order-2 lg:order-1">
+                    <div class="bg-gray-900 bg-opacity-50 border border-gray-800 rounded-2xl p-6 md:p-8 backdrop-blur-sm">
+                        <p class="text-lg md:text-xl text-gray-300 mb-6">
+                            Smoky Memecoin, built on the high-speed TON Blockchain, honors Smoky, the heroic War Dog who served in World War II. This small Yorkshire Terrier with boundless courage symbolizes loyalty, bravery, and the indomitable spirit of our canine companions.
+                        </p>
+                        <p class="text-lg md:text-xl text-gray-300 mb-6">
+                            More than just another meme token, SMOKY celebrates true grit and devotion, inspiring all holders to rise above challenges with the same unwavering heart that Smoky demonstrated during her service in the Pacific theater.
+                        </p>
+                        <p class="text-lg md:text-xl text-gray-300">
+                            Join us in creating a vibrant community that combines the fun of memecoins with the noble story of a real-life hero dog, all while leveraging the power and efficiency of the TON blockchain.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2 order-1 lg:order-2 flex justify-center">
+                    <div class="relative">
+                        <img src="logo.png" alt="SMOKY Hero Dog" class="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-cyan-400 shadow-lg shadow-cyan-500/20" width="320" height="320">
+                        <div class="absolute -inset-4 rounded-full border-2 border-pink-400 animate-pulse opacity-70"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section id="tokenomics" class="py-20 bg-gradient-to-b from-gray-900 to-black">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-between mb-16">
+                <h2 class="text-4xl md:text-5xl font-extrabold">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-400">Tokenomics</span>
+                </h2>
+                <img src="tok.svg" alt="Tokenomics" class="w-32 md:w-48 mt-6 md:mt-0" width="192" height="192">
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Total Supply -->
+                <div class="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-cyan-400 transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="bg-cyan-500 bg-opacity-20 p-3 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold">Total Supply</h3>
+                    </div>
+                    <p class="text-3xl font-bold text-cyan-400">96,000,000,000 SMOKY</p>
+                </div>
+                
+                <!-- Distribution -->
+                <div class="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-pink-400 transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="bg-pink-500 bg-opacity-20 p-3 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-pink-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold">Distribution</h3>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-300">IDO</span>
+                            <span class="font-bold">15%</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-300">Airdrop</span>
+                            <span class="font-bold">10%</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-300">DEX</span>
+                            <span class="font-bold">13%</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-300">CEX</span>
+                            <span class="font-bold">12%</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-300">Staking</span>
+                            <span class="font-bold">30%</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-300">Team</span>
+                            <span class="font-bold">10%</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-300">Marketing</span>
+                            <span class="font-bold">10%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contract Address -->
+                <div class="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-purple-400 transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="bg-purple-500 bg-opacity-20 p-3 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold">Contract Address</h3>
+                    </div>
+                    <div class="relative">
+                        <input type="text" id="tokenomics-ca" readonly value="EQDYvSx9HxBEdQlkYbe9wc7WFiMUzgWuz6seeX2rIidGs6io" class="w-full bg-gray-800 border border-gray-700 rounded-lg py-3 px-4 text-sm text-white focus:outline-none focus:ring-2 focus:ring-purple-500">
+                        <button onclick="copyToClipboard('tokenomics-ca', this)" class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 hover:bg-gray-600 rounded p-1 transition-colors duration-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    
+                    <div class="mt-6">
+                        <a href="whitepaper.pdf" download class="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold py-2 px-4 rounded-lg transition-all duration-300">
+                            Download Whitepaper
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Section -->
+    <section id="social" class="py-20 bg-black">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-12">
+                <div class="lg:w-1/2">
+                    <h2 class="text-4xl md:text-5xl font-extrabold mb-8">
+                        Join the <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-400">SMOKY</span> Community
+                    </h2>
+                    
+                    <p class="text-lg md:text-xl text-gray-300 mb-8">
+                        Connect with us on social media to stay updated with the latest news, announcements, and community events.
+                    </p>
+                    
+                    <div class="flex flex-wrap gap-4">
+                        <a href="https://t.me/Smoky_TON" target="_blank" rel="noopener noreferrer" class="social-icon bg-gray-900 hover:bg-gray-800 border border-gray-800 rounded-lg p-4 flex items-center gap-3 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/10">
+                            <img src="tg.png" alt="Telegram" class="w-10 h-10" width="40" height="40">
+                            <span class="font-medium">Telegram</span>
+                        </a>
+                        
+                        <a href="https://www.instagram.com/Smoky.ton" target="_blank" rel="noopener noreferrer" class="social-icon bg-gray-900 hover:bg-gray-800 border border-gray-800 rounded-lg p-4 flex items-center gap-3 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-pink-500/10">
+                            <img src="insta.png" alt="Instagram" class="w-10 h-10" width="40" height="40">
+                            <span class="font-medium">Instagram</span>
+                        </a>
+                        
+                        <a href="https://tonviewer.com/EQDYvSx9HxBEdQlkYbe9wc7WFiMUzgWuz6seeX2rIidGs6io" target="_blank" rel="noopener noreferrer" class="social-icon bg-gray-900 hover:bg-gray-800 border border-gray-800 rounded-lg p-4 flex items-center gap-3 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/10">
+                            <img src="ton.png" alt="TON Viewer" class="w-10 h-10" width="40" height="40">
+                            <span class="font-medium">TON Viewer</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2 flex justify-center">
+                    <div class="relative">
+                        <img src="logo1.png" alt="SMOKY Community" class="w-64 h-64 md:w-80 md:h-80 rounded-2xl border-4 border-cyan-400 shadow-lg shadow-cyan-500/20" width="320" height="320">
+                        <div class="absolute -inset-4 rounded-2xl border-2 border-pink-400 animate-pulse opacity-70"></div>
+                        <div class="absolute -bottom-6 -right-6 bg-pink-500 text-white px-4 py-2 rounded-lg font-bold transform rotate-6">
+                            Woof! 🐕
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-8 border-t border-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center gap-3 mb-6 md:mb-0">
+                    
+                    <span class="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-400">
+                        SMOKY
+                    </span>
+                </div>
+                
+                <div class="flex flex-wrap justify-center gap-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Home</a>
+                    <a href="#about" class="text-gray-400 hover:text-white transition-colors duration-200">About</a>
+                    <a href="#tokenomics" class="text-gray-400 hover:text-white transition-colors duration-200">Tokenomics</a>
+                    <a href="#social" class="text-gray-400 hover:text-white transition-colors duration-200">Social</a>
+                    <a href="whitepaper.pdf" download class="text-gray-400 hover:text-white transition-colors duration-200">Whitepaper</a>
+                </div>
+            </div>
+            
+            <div class="mt-8 pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
+                <p>© 2024 SMOKY Memecoin. All rights reserved. smoky.uz</p>
+                <p class="mt-2">SMOKY is a memecoin on TON Blockchain honoring the heroic war dog Smoky. This is not financial advice.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Initialize ScrollReveal
+        ScrollReveal().reveal(".social-icon", { 
+            delay: 100, 
+            interval: 100,
+            origin: 'bottom', 
+            distance: '20px', 
+            duration: 500 
+        });
+        
+        ScrollReveal().reveal(".tokenomics-card", { 
+            delay: 100, 
+            interval: 100,
+            origin: 'bottom', 
+            distance: '50px', 
+            duration: 600 
+        });
+        
+        ScrollReveal().reveal(".about-content", { 
+            delay: 100, 
+            origin: 'left', 
+            distance: '50px', 
+            duration: 600 
+        });
+        
+        ScrollReveal().reveal(".about-image", { 
+            delay: 100, 
+            origin: 'right', 
+            distance: '50px', 
+            duration: 600 
+        });
+        
+        ScrollReveal().reveal(".hero-content", { 
+            delay: 100, 
+            origin: 'left', 
+            distance: '50px', 
+            duration: 600 
+        });
+        
+        ScrollReveal().reveal(".hero-image", { 
+            delay: 100, 
+            origin: 'right', 
+            distance: '50px', 
+            duration: 600 
+        });
+
+        // Mobile menu toggle
+        function toggleMenu() {
+            const navbar = document.getElementById('navbar-default');
+            const icon = document.getElementById('menuIcon');
+            
+            if (navbar.classList.contains('hidden')) {
+                navbar.classList.remove('hidden');
+                navbar.classList.add('flex');
+                icon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: cyan;"><path d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"></path></svg>';
+            } else {
+                navbar.classList.add('hidden');
+                navbar.classList.remove('flex');
+                icon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: cyan;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>';
+            }
+        }
+
+        // Copy to clipboard function
+        function copyToClipboard(elementId, button) {
+            const element = document.getElementById(elementId);
+            element.select();
+            document.execCommand('copy');
+            
+            // Visual feedback
+            if (button) {
+                const originalHtml = button.innerHTML;
+                button.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>';
+                
+                setTimeout(() => {
+                    button.innerHTML = originalHtml;
+                }, 2000);
+            }
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    if (window.innerWidth < 768) {
+                        const navbar = document.getElementById('navbar-default');
+                        if (!navbar.classList.contains('hidden')) {
+                            toggleMenu();
+                        }
+                    }
+                }
+            });
+        });
+
+        // Initialize ClipboardJS
+        document.addEventListener('DOMContentLoaded', function() {
+            new ClipboardJS('.js-clipboard');
+        });
+    </script>
+
+	 <style>
+	
+    @keyframes float {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-20px);
+        }
+    }
+
+    .animate-float {
+        animation: float 6s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+        0%, 100% {
+            opacity: 0.7;
+        }
+        50% {
+            opacity: 1;
+        }
+    }
+
+    .animate-pulse {
+        animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    /* Custom styles for responsive design */
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Navigation */
+    .nav-main {
+        transition: all 0.3s ease;
+    }
+
+    .nav-main a:hover {
+        text-decoration: none;
+    }
+
+    /* Hero Section */
+    .hero-content {
+        position: relative;
+        z-index: 10;
+    }
+
+    .hero-image {
+        filter: drop-shadow(0 0 20px rgba(59, 130, 246, 0.5));
+    }
+
+    /* About Section */
+    .about-content {
+        backdrop-filter: blur(10px);
+    }
+
+    .about-image {
+        filter: drop-shadow(0 0 15px rgba(236, 72, 153, 0.5));
+    }
+
+    /* Tokenomics Section */
+    .tokenomics-card {
+        transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .tokenomics-card:hover {
+        transform: translateY(-5px);
+    }
+
+    /* Social Section */
+    .social-icon {
+        transition: all 0.3s ease;
+    }
+
+    .social-icon:hover {
+        transform: translateY(-5px);
+    }
+
+    /* Footer */
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .hero-content h1 {
+            font-size: 2.5rem;
+        }
+
+        .hero-content p {
+            font-size: 1rem;
+        }
+
+        .about-content p {
+            font-size: 1rem;
+        }
+
+        .tokenomics-card {
+            padding: 1rem;
+        }
+
+        .social-icon {
+            padding: 0.75rem;
+        }
+
+        .social-icon img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .hero-content h1 {
+            font-size: 2rem;
+        }
+
+        .hero-image {
+            width: 200px;
+            height: 200px;
+        }
+
+        .about-image {
+            width: 200px;
+            height: 200px;
+        }
+
+        .tokenomics-card h3 {
+            font-size: 1.25rem;
+        }
+
+        .social-section img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+</style>
+</body>
+</html>
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
